@@ -45,14 +45,16 @@ h1 {
 
 button {
     background-color: #467AA6;
-    border: solid #1c5380 1px;
+    border: solid #1c5380 2px;
     border-radius: 5px;
     color: white;
     position: absolute;
-    top: 130px;
+    top: 120px;
     right: 165px;
     padding: 10px;
     font-size: 20px;
+    vertical-align: bottom;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf ), to(#23538a ));
     
 }
 
@@ -65,9 +67,8 @@ button {
     text-align: justify;
     margin-right: 12%;
     margin-left: 7%;
-    border:1px dashed red;
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 3.5em;
 }
 
 
@@ -90,4 +91,10 @@ li {
 
 #copyright {
     color: lightgray;
+}
+
+span {
+    line-height: 22px;
+    vertical-align:top;
+    padding: 1.5px;
 }
